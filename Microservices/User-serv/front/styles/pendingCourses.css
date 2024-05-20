@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.courses-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-details {
+    flex: 1;
+    text-align: left;
+}
+
+.course-title {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.course-category,
+.course-capacity,
+.course-duration,
+.course-status,
+.course-rating,
+.course-addedby {
+    margin: 5px 0;
+}
+
+.course-actions {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.accept {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button.accept:hover {
+    background-color: #45a049;
+}
+
+button.reject {
+    background-color: #f44336;
+    color: white;
+}
+
+button.reject:hover {
+    background-color: #e53935;
+}

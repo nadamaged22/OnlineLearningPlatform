@@ -1,0 +1,42 @@
+/* Add your CSS styles for past enrollments page here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.enrollment {
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    display: inline-block;
+}
+
+.enrollment-info p {
+    margin: 5px 0;
+}
+
+.status-rejected {
+    color: #dc3545;
+}
+
+.status-approved {
+    color: #28a745;
+}
+
+.status-pending {
+    color: #ffc107;
+}

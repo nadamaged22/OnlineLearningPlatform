@@ -1,0 +1,39 @@
+/* Styles for the container */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #3498db;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+td {
+    font-size: 14px;
+    color: #333;
+}
+tr:hover {
+    background-color: #f2f2f2;
+}
+.role-admin {
+    color: #e74c3c;
+}
+.role-user {
+    color: #2ecc71;
+}

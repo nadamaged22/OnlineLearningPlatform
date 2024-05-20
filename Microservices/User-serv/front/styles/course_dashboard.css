@@ -1,0 +1,26 @@
+/* styles/course_dashboard.css */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.course {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.course h2 {
+    margin-top: 0;
+}
+
+.course p {
+    margin: 5px 0;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Search</title>
+    <link rel="stylesheet" href="styles/CourseSearch.css">
+</head>
+<body>
+    <h1>Search Courses</h1>
+    <div class="search-container">
+        <div class="search-box">
+            <h2>Search by Name</h2>
+            <input type="text" id="searchByNameInput" placeholder="Enter course name">
+            <button onclick="searchByName()">Search</button>
+        </div>
+
+        <div class="search-box">
+            <h2>Search by Category</h2>
+            <input type="text" id="searchByCategoryInput" placeholder="Enter course category">
+            <button onclick="searchByCategory()">Search</button>
+        </div>
+
+        <div class="search-box">
+            <h2>Search by Rating</h2>
+            <button onclick="searchByRating()">Search</button>
+        </div>
+    </div>
+
+    <div id="results"></div>
+
+    <script src="scripts/CourseSerach.js"></script>
+</body>
+</html>

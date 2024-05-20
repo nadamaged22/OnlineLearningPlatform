@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Course</title>
+    <link rel="stylesheet" type="text/css" href="styles/editCourse.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Edit Course</h1>
+        <form id="editCourseForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id='name' name='name'> <!-- Changed id to 'name' -->
+            </div>
+            <div class="form-group">
+                <label for="duration">Duration:</label>
+                <input type="text" id="duration" name="duration">
+            </div>
+            <div class="form-group">
+                <label for="category">Category:</label>
+                <input type="text" id="category" name="category">
+            </div>
+            <div class="form-group">
+                <label for="capacity">Capacity:</label>
+                <input type="text" id="capacity" name="capacity">
+            </div>
+            <button type="submit">Save Changes</button>
+        </form>
+    </div>
+
+    <script src="scripts/editCourse.js"></script>
+</body>
+</html>
